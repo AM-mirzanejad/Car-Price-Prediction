@@ -76,13 +76,13 @@ This is the initial release of our project, scheduled for April 15, 2024. In thi
 
 ## Installation
 
-### 1. Installing Anaconda (Recommended):
+### Step 1: Install Anaconda (Recommended)
 
-If Anaconda is not installed on your system, you can download and install it from the [Anaconda Official Website](https://www.anaconda.com/products/distribution).
+If Anaconda is not already installed on your system, you can easily download and install it from the [Anaconda Official Website](https://www.anaconda.com/products/distribution). Anaconda provides a comprehensive Python distribution with powerful package management and environment management capabilities.
 
-### 2. Cloning the Project Repository:
+### Step 2: Clone the Project Repository
 
-Clone the project repository using Git:
+To get started with our Car Price Prediction project, follow these steps to clone the project repository and set up the required environment:
 
 ```bash
 git clone https://github.com/AM-mirzanejad/Car-Price-Prediction.git
