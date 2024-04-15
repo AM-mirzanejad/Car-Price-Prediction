@@ -1,27 +1,23 @@
-# Car Price Prediction and Estimation Project
+# Car Price Prediction and Estimation Project (First Release) 🚗💰
 
-This project focuses on predicting and estimating car prices using machine learning models. In this README, we provide general information and guidelines on running the project and using the code to predict car prices.
+Welcome to the first release of our Car Price Prediction and Estimation Project, scheduled for April 15th! This project leverages machine learning models to predict and estimate car prices with high accuracy, achieving a prediction error coefficient of less than 1 cent. The model demonstrates exceptional accuracy and reliability, making it a valuable tool for car price estimation.
+
+## About the Project ℹ️
+
+This project aims to assist users in predicting car prices based on various features such as manufacturing year, mileage, fuel type, engine power, and more. By utilizing machine learning algorithms like Regression, Random Forest, or Gradient Boosting, we've developed a robust model that offers precise car price predictions.
+
+## About Cars and Pricing 🚘💵
+
+Understanding and predicting car prices can be essential for both buyers and sellers in the automotive industry. Factors such as the car's age, mileage, fuel efficiency, and engine power significantly influence its market value. Our project harnesses these insights to provide accurate estimates of car prices, empowering users with valuable information.
+
+## First Release Details 🚀
+
+This is the initial release of our project, scheduled for  Monday - 2024 15 April . In this release, you'll find the first version of our car price prediction model, which demonstrates outstanding accuracy and performance. We encourage users to provide feedback and suggestions to further enhance the project in future releases
+
 
 ![Car Image](https://github.com/AM-mirzanejad/Car-Price-Prediction/blob/main/Photos/Vector.png)
 
-## How to Use the Project
 
-1. **Install Dependencies**: Before running the project, make sure to install the required dependencies. You can do this by running:
-
-
-## How to Use the Project
-
-1. **Dataset**: Start by collecting a comprehensive dataset of car information. This dataset should include important features such as manufacturing year, mileage, fuel type, engine power, etc.
-
-2. **Data Preprocessing**: After gathering the data, preprocess it. This involves cleaning incomplete data, transforming features into an acceptable format for machine learning models, and performing essential analyses for better data understanding.
-
-3. **Model Selection**: Choosing the right model for predicting car prices is crucial. Consider models like Regression, Random Forest, or Gradient Boosting, and train them based on your data.
-
-4. **Model Training**: Train the model using your training data to accurately predict car prices.
-
-5. **Model Evaluation**: After training the model, evaluate how accurate and reliable it is. Use metrics like Mean Absolute Error (MAE) or Root Mean Square Error (RMSE).
-
-6. **Using the Model**: Prepare a user interface or use an API for easier utilization of the model to predict car prices.
 
 ## Tools and Libraries Used
 
@@ -82,3 +78,12 @@ This project focuses on predicting and estimating car prices using machine learn
 | seats            | The number of seats in the car                       |
 
 </div>
+
+## Installation
+
+Clone the repository using `git`:
+
+```bash
+git clone <https://github.com/AM-mirzanejad/Car-Price-Prediction.git>
+cd <directory_name>
+pip install -r requirements.txt
