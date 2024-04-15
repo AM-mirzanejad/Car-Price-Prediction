@@ -1,6 +1,6 @@
 # Car Price Prediction and Estimation Project (First Release) 🚗💰
 
-Welcome to the first release of our Car Price Prediction and Estimation Project, scheduled for April 15th! This project leverages machine learning models to predict and estimate car prices with high accuracy, achieving a prediction error coefficient of less than 1 cent. The model demonstrates exceptional accuracy and reliability, making it a valuable tool for car price estimation.
+Welcome to the first release of our Car Price Prediction and Estimation Project, scheduled for April 15, 2024! This project leverages machine learning models to predict and estimate car prices with high accuracy, achieving a prediction error coefficient of less than 1 cent. The model demonstrates exceptional accuracy and reliability, making it a valuable tool for car price estimation.
 
 ## About the Project ℹ️
 
@@ -12,12 +12,9 @@ Understanding and predicting car prices can be essential for both buyers and sel
 
 ## First Release Details 🚀
 
-This is the initial release of our project, scheduled for  Monday - 2024 15 April . In this release, you'll find the first version of our car price prediction model, which demonstrates outstanding accuracy and performance. We encourage users to provide feedback and suggestions to further enhance the project in future releases
-
+This is the initial release of our project, scheduled for April 15, 2024. In this release, you'll find the first version of our car price prediction model, which demonstrates outstanding accuracy and performance. We encourage users to provide feedback and suggestions to further enhance the project in future releases.
 
 ![Car Image](https://github.com/AM-mirzanejad/Car-Price-Prediction/blob/main/Photos/Vector.png)
-
-
 
 ## Tools and Libraries Used
 
@@ -56,34 +53,41 @@ This is the initial release of our project, scheduled for  Monday - 2024 15 Apri
 - [NumPy Documentation](https://numpy.org/): Get details on numerical computations with NumPy
 - [XGBoost Documentation](https://xgboost.readthedocs.io/): Dive into the XGBoost library for gradient boosting
 
-
-
 <div align="center">
 
 ## Dataset Columns with Descriptions
 
-| Column Name      | Description                                         |
-| ---------------- | --------------------------------------------------- |
-| name             | The name or model of the car                        |
-| year             | The manufacturing year of the car                    |
-| selling_price    | The selling price of the car (in currency units)     |
-| km_driven        | The total kilometers driven by the car               |
-| fuel             | The type of fuel used by the car (e.g., petrol, diesel) |
-| seller_type      | The type of seller (e.g., individual, dealer)        |
-| transmission     | The type of transmission (e.g., manual, automatic)   |
-| owner            | The number of previous owners of the car             |
-| mileage          | The mileage of the car (kilometers per liter or kilogram) |
-| engine           | The engine displacement of the car (in cc)           |
-| max_power        | The maximum power output of the engine               |
-| seats            | The number of seats in the car                       |
+| Column Name   | Description                                         |
+| --------------| --------------------------------------------------- |
+| name          | The name or model of the car                        |
+| year          | The manufacturing year of the car                    |
+| selling_price | The selling price of the car (in currency units)     |
+| km_driven     | The total kilometers driven by the car               |
+| fuel          | The type of fuel used by the car (e.g., petrol, diesel) |
+| seller_type   | The type of seller (e.g., individual, dealer)        |
+| transmission  | The type of transmission (e.g., manual, automatic)   |
+| owner         | The number of previous owners of the car             |
+| mileage       | The mileage of the car (kilometers per liter or kilogram) |
+| engine        | The engine displacement of the car (in cc)           |
+| max_power     | The maximum power output of the engine               |
+| seats         | The number of seats in the car                       |
 
 </div>
 
 ## Installation
 
-Clone the repository using `git`:
+### 1. Installing Anaconda (Recommended):
+
+If Anaconda is not installed on your system, you can download and install it from the [Anaconda Official Website](https://www.anaconda.com/products/distribution).
+
+### 2. Cloning the Project Repository:
+
+Clone the project repository using Git:
 
 ```bash
-git clone <https://github.com/AM-mirzanejad/Car-Price-Prediction.git>
-cd <directory_name>
+git clone https://github.com/AM-mirzanejad/Car-Price-Prediction.git
+cd Car-Price-Prediction
+pip install -r requirements.txt
+conda create --name car-price-prediction-env python=3.8
+conda activate car-price-prediction-env
 pip install -r requirements.txt
